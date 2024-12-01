@@ -42,6 +42,10 @@ public final class FaultLogger {
     }
   }
 
+    public static NetworkTable getBase() {
+        return base;
+    }
+
   @FunctionalInterface
   public static interface FaultReporter {
     void report();
