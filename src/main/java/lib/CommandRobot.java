@@ -40,4 +40,8 @@ public class CommandRobot extends TimedRobot {
   public void testInit() {
     CommandScheduler.getInstance().cancelAll();
   }
+
+    public void close() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
 }
