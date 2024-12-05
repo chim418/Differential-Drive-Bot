@@ -71,10 +71,9 @@ public class Robot extends CommandRobot implements Logged {
       DriverStation.silenceJoystickConnectionWarning(true);
     }
   }
-
   /** Configures trigger -> command bindings. */
-  private void configureBindings() {
-    drive.setDefaultCommand(drive.drive(driver::getLeftY, driver::getRightY));
+    private void configureBindings() {
+    drive.setDefaultCommand(drive.drive(driver.getLeftY(), driver.getRightY()));
   }
 
   /**

@@ -9,6 +9,13 @@
       "name": "Main",
       "request": "launch",
       "mainClass": "robot.Main",
+      "projectName": "Differential-Drive-Bot"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "robot.Main",
       "projectName": "Hydrogen"
     },
     {
