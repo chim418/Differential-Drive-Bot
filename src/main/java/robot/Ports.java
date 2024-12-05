@@ -16,5 +16,9 @@ public final class Ports {
           // TODO Auto-generated method stub
           throw new UnsupportedOperationException("Unimplemented method 'drive'");
         }
+        public void setDefaultCommand(Object drive) {
+            // TODO Auto-generated method stub
+            throw new UnsupportedOperationException("Unimplemented method 'setDefaultCommand'");
+        }
     }
 }
